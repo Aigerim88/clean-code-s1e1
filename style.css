@@ -4,37 +4,37 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.matrix-image {
+.matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.matrix-image img {
+.matrix img {
     width: 100%;
 }
-.matrix-image .more_inf {
+.matrix__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .matrix-image { 
+  .matrix { 
     text-align: center;
     }
 
 }
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.main__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.main__task-row-wrapper {
     display: flex;
 }
 ul {
